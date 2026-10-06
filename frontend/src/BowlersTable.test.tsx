@@ -15,7 +15,7 @@ const mockBowlers: Bowler[] = [
     bowlerState: 'IL',
     bowlerZip: '62701',
     bowlerPhoneNumber: '555-1234',
-    team: { teamId: 10, teamName: 'Marlins' },
+    team: { teamID: 10, teamId: 10, teamName: 'Marlins' },
   },
   {
     bowlerId: 2,
@@ -27,7 +27,7 @@ const mockBowlers: Bowler[] = [
     bowlerState: 'IL',
     bowlerZip: '62702',
     bowlerPhoneNumber: '555-5678',
-    team: { teamId: 20, teamName: 'Sharks' },
+    team: { teamID: 20, teamId: 20, teamName: 'Sharks' },
   },
   {
     bowlerId: 3,
@@ -39,7 +39,7 @@ const mockBowlers: Bowler[] = [
     bowlerState: 'IL',
     bowlerZip: '62703',
     bowlerPhoneNumber: '555-9012',
-    team: { teamId: 30, teamName: 'Eagles' },
+    team: { teamID: 30, teamId: 30, teamName: 'Eagles' },
   },
 ];
 
@@ -118,7 +118,7 @@ describe('BowlersTable Component', () => {
       bowlerState: '',
       bowlerZip: '',
       bowlerPhoneNumber: '',
-      team: { teamId: 0, teamName: '' }
+      team: { teamID: 0, teamId: 0, teamName: '' }
     };
     expect(buildBowlerCardInfo(emptyBowler)).toBeDefined();
     expect(buildBowlerCardInfoDuplicate(emptyBowler)).toBeDefined();
