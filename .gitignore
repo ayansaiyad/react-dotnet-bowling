@@ -1,0 +1,52 @@
+# Build & Output Directories
+bin/
+obj/
+dist/
+build/
+out/
+Backend.Tests/bin/
+Backend.Tests/obj/
+Backend.Tests/TestResults/
+backend/bin/
+backend/obj/
+
+# Node.js & React Dependencies
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+.npm
+*.log
+
+# Test Results & Code Coverage Reports
+TestResults/
+coverage/
+frontend/coverage/
+*.cobertura.xml
+lcov.info
+
+# SonarQube Temporary Analysis Cache
+.sonarqube/
+.scannerwork/
+
+# Database Files
+*.sqlite
+*.db
+
+# IDE & Editor Files
+.vs/
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+
+# Operating System Files
+Thumbs.db
+Desktop.ini
+.DS_Store
